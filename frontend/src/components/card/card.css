@@ -1,0 +1,44 @@
+ul {
+  list-style-type: none;
+}
+
+.mtg-card {
+  margin: 15px;
+  width: 200px;
+}
+
+.mtg-card .card-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 10px;
+  border: solid thin black;
+  border-radius: 5px;
+  border-bottom: 0;
+  background-color: #e1e0dd;
+}
+
+.hover-img img {
+  left: 280px;
+  margin-top: -165px;
+  height: 300px;
+  border: solid thin black;
+  background-color: #e1e0dd;
+  position: absolute;
+}
+
+.hover-img::after {
+  content: "";
+  position: absolute;
+  left: 273px;
+  margin-top: -35px;
+  margin-left: -8px;
+  border-width: 8px;
+  border-style: solid;
+  border-color: transparent black transparent transparent;
+}
+
+.card-name {
+  width: 100px;
+  text-align: start;
+  margin-left: 10px;
+}
