@@ -24,7 +24,7 @@ const DUMMY_CARDS: MTGCard[] = [
   {
     name: "Fireball",
     id: "2",
-    count: 4,
+    count: 3,
     image_uris: {
       normal:
         "https://c1.scryfall.com/file/scryfall-cards/normal/front/d/f/df45a43e-a5b7-4fd4-873b-7b3c021be198.jpg?1660726398",
