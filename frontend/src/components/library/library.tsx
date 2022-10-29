@@ -15,7 +15,7 @@ const DUMMY_CARDS: MTGCard[] = [
   {
     name: "Counterspell",
     id: "1",
-    count: 2,
+    count: 3,
     image_uris: {
       normal:
         "https://c1.scryfall.com/file/scryfall-cards/normal/front/a/4/a457f404-ddf1-40fa-b0f0-23c8598533f4.jpg?1645328634",
